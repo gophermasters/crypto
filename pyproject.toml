@@ -1,0 +1,8 @@
+[project]
+name = "crypto"
+version = "1.0.0"
+dependencies = [
+    "bcrypt",
+]
+[project.scripts]
+crypto = "crypto:main"
